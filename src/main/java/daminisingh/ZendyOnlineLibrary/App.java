@@ -1,4 +1,4 @@
-package daminisingh.ParamInfoSTCTV;
+package daminisingh.ZendyOnlineLibrary;
 
 public class App {
   public static void main(String[] args) {
