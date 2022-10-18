@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38654" started-at="2022-09-19T01:57:50 GST" finished-at="2022-09-19T01:58:29 GST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38654" started-at="2022-09-19T01:57:50 GST" finished-at="2022-09-19T01:58:29 GST">
+      <class name="cucumberOptions.TestNGTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="setUpClass" is-config="true" duration-ms="619" started-at="2022-09-19T01:57:50 GST" finished-at="2022-09-19T01:57:51 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59cba5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="37732" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:28 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3. Validate currencies and URL is changed based on the selected country"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at stepDefinitions.LandingPageStepDefinition.user_select_country_checks_currency_url_is_modified(LandingPageStepDefinition.java:125)
+at ✽.user select country Kuwait checks currency KWD URL kw is modified(file:///Users/pheonix/eclipse-workspace/ParamInfoSTCTV/src/test/java/features/subscriptionPackages.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="35489" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:26 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3. Validate currencies and URL is changed based on the selected country"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at stepDefinitions.LandingPageStepDefinition.user_select_country_checks_currency_url_is_modified(LandingPageStepDefinition.java:125)
+at ✽.user select country KSA checks currency SAR URL sa is modified(file:///Users/pheonix/eclipse-workspace/ParamInfoSTCTV/src/test/java/features/subscriptionPackages.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="33151" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:24 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["4. Validate types of package visible on screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="37104" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:28 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2. Validate the language is changed based on the language selector"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at stepDefinitions.LandingPageStepDefinition.page_language_is_modifed_to_arabic_language(LandingPageStepDefinition.java:88)
+at ✽.page language is modifed to arabic language(file:///Users/pheonix/eclipse-workspace/ParamInfoSTCTV/src/test/java/features/subscriptionPackages.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="35726" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:26 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3. Validate currencies and URL is changed based on the selected country"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="runScenario" duration-ms="32728" started-at="2022-09-19T01:57:51 GST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T01:58:23 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1. Validate the landing page key elements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation for Subscription packages for STC TV application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@8b87145]" name="tearDownClass" is-config="true" duration-ms="196" started-at="2022-09-19T01:58:28 GST" finished-at="2022-09-19T01:58:29 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
